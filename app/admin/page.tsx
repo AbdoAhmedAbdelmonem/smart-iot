@@ -1,5 +1,7 @@
 "use client"
 
+export const dynamic = "force-dynamic";
+
 import { useState, useEffect } from "react"
 import { LoginForm } from "@/components/auth/login-form"
 import { AdminControlRoom } from "@/components/dashboard/admin-control-room"
@@ -31,7 +33,6 @@ export default function AdminPage() {
     if (isAdmin) {
       setIsAuthenticated(true)
     } else {
-      // Redirect to main dashboard if not admin
       router.push("/")
     }
   }
