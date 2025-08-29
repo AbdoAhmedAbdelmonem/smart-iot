@@ -3,5 +3,5 @@ export const adminEmails = [
   "mahmoudmosaad00@gmail.com",
   "thestaryousef5@gmail.com",
   "mo.elbob2005@gmail.com",
-  "noor@gmail.com",
+  "noureldeen242005@gmail.com",
 ]
